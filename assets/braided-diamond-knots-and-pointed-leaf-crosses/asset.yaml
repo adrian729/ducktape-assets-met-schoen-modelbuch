@@ -1,0 +1,67 @@
+# descriptive: find it and understand it
+id: braided-diamond-knots-and-pointed-leaf-crosses
+title: "Braided knot and fleur-de-lis border, one cycle"
+description: "One cycle of a woodcut border: a quatrefoil cartouche encloses a braided knot of two diagonal dotted straps crossing at the centre, flanked left and right by a column of pointed leaves set as a cross around a fleur-de-lis, with C-scrolls and dots in the corners and half motifs cut at the top and bottom edges. Thin rules run along the top and bottom. Dark brown-black woodcut line on a transparent ground."
+type: border
+categories:
+  - knotwork
+  - floral
+  - geometric
+subjects:
+  - knot
+  - strapwork
+  - cartouche
+  - leaf
+  - scroll
+  - rule
+colors:
+  - black
+  - brown
+facing: none
+composition: repeat-tile
+
+# structural: how it is organised and related
+group: 22-84-1-3r
+render:
+  image: {}
+  frame:
+    corner: corner-top-left
+    slice: 29.52
+components:
+  corner-top-left:
+    master: corner-top-left.png
+    description: "Top-left mitred corner of the cycle, the braided knot cut by the mitre; the one used for the frame atlas."
+  corner-top-right:
+    master: corner-top-right.png
+    description: "Top-right mitred corner, a further phase of the cycle, the braided knot cut by the mitre; not a mirror of the top-left one."
+  corner-bottom-left:
+    master: corner-bottom-left.png
+    description: "Bottom-left mitred corner, a further phase of the cycle, the braided knot cut by the mitre."
+  corner-bottom-right:
+    master: corner-bottom-right.png
+    description: "Bottom-right mitred corner, a further phase of the cycle, the braided knot cut by the mitre."
+usage_notes:
+  - "The cycle is barely longer than it is tall, so it is not declared a tile; repeat it with background-repeat along x, or use the frame atlas."
+  - "The frame atlas composes this cycle with corner-top-left, mirrored for the other three corners; use it with border-image and round fitting."
+  - "The four corner components are mitres cut at the four phases of the cycle; only corner-top-left goes into the atlas, the other three are for hand-composed frames."
+display_width: [ 280, 555 ]
+
+# administrative: manage, access, preserve
+status: approved
+review: done
+quality: "Ink is stored as continuous alpha coverage with almost no fully opaque pixel, so the strokes pale over dark grounds."
+created: 2026-10-28
+master: master.png
+provenance:
+  method: native-source-repeat
+  institution: Metropolitan Museum of Art
+  object_title: Page from Ein new kunstlich Modelbuch...(Page 3r)
+  object_identifier: 22.84.1(3r)
+  date: "1544"
+  artist: Peter Quentel
+  record_url: https://www.metmuseum.org/art/collection/search/681256
+  image_url: https://images.metmuseum.org/CRDImages/dp/original/DP357023.jpg
+  image_rights: CC0-1.0
+  rights_url: https://www.metmuseum.org/policies/image-resources
+  source_sha256: d121fd2815eb01d9b7646df88f60721a93e5c035fd2d49ac0ec8a0a6b3780338
+license: null

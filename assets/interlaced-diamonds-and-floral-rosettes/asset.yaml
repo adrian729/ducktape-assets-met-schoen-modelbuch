@@ -1,0 +1,66 @@
+# descriptive: find it and understand it
+id: interlaced-diamonds-and-floral-rosettes
+title: "Interlaced diamonds and rosettes, one cycle"
+description: "One cycle of a woodcut border: two chains of interlaced diamond straps run through each other across the centre and enclose a seven-petalled rosette, with a rosette above and below in the field at the right and small dots between; a double rule runs along the top and a band of short vertical hatching between two rules along the bottom. Dark brown-black line on a transparent ground."
+type: border
+categories:
+  - knotwork
+  - geometric
+  - floral
+subjects:
+  - strapwork
+  - diamond
+  - rosette
+  - hatching
+  - rule
+colors:
+  - black
+  - brown
+facing: none
+composition: repeat-tile
+
+# structural: how it is organised and related
+group: 22-84-1-2v
+render:
+  image: {}
+  frame:
+    corner: corner-top-left
+    slice: 29.36
+components:
+  corner-top-left:
+    master: corner-top-left.png
+    description: "Top-left mitred corner of the cycle, the diamond straps cut by the mitre; the one used for the frame atlas."
+  corner-top-right:
+    master: corner-top-right.png
+    description: "Top-right mitred corner, a further phase of the cycle, the diamond straps cut by the mitre; not a mirror of the top-left one."
+  corner-bottom-left:
+    master: corner-bottom-left.png
+    description: "Bottom-left mitred corner, a further phase of the cycle, the diamond straps cut by the mitre."
+  corner-bottom-right:
+    master: corner-bottom-right.png
+    description: "Bottom-right mitred corner, a further phase of the cycle, the diamond straps cut by the mitre."
+usage_notes:
+  - "The cycle is barely longer than it is tall, so it is not declared a tile; repeat it with background-repeat along x, or use the frame atlas."
+  - "The frame atlas composes this cycle with corner-top-left, mirrored for the other three corners; use it with border-image and round fitting."
+  - "The four corner components are mitres cut at the four phases of the cycle; only corner-top-left goes into the atlas, the other three are for hand-composed frames."
+display_width: [ 300, 592 ]
+
+# administrative: manage, access, preserve
+status: approved
+review: done
+quality: "Ink is stored as continuous alpha coverage with almost no fully opaque pixel, so the strokes pale over dark grounds."
+created: 2026-10-28
+master: master.png
+provenance:
+  method: native-source-repeat
+  institution: Metropolitan Museum of Art
+  object_title: Page from Ein new kunstlich Modelbuch...(Page 2v)
+  object_identifier: 22.84.1(2v)
+  date: "1544"
+  artist: Peter Quentel
+  record_url: https://www.metmuseum.org/art/collection/search/681253
+  image_url: https://images.metmuseum.org/CRDImages/dp/original/DP357022.jpg
+  image_rights: CC0-1.0
+  rights_url: https://www.metmuseum.org/policies/image-resources
+  source_sha256: addb61701877a67401271c155a51f9f490ea1e6c10703be1979e1a28d524c982
+license: null

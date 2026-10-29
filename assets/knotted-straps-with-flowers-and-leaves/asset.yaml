@@ -1,0 +1,47 @@
+# descriptive: find it and understand it
+id: knotted-straps-with-flowers-and-leaves
+title: "Knotted straps with flowers and leaves"
+description: "A section of a large knotwork page: an upright figure-eight loop of doubled strap at the left and a braided square knot at the right, linked by looped straps, with five-petalled flowers, curled leaves and sprigs filling the gaps; a vertical braided band is cut along the left edge and a further loop is cut at the right edge. Heavy dark brown-black woodcut line on a transparent ground."
+type: ornament
+categories:
+  - knotwork
+  - floral
+subjects:
+  - knot
+  - strapwork
+  - loop
+  - flower
+  - leaf
+colors:
+  - black
+  - brown
+facing: none
+composition: single-ornament
+
+# structural: how it is organised and related
+group: 22-84-1-2r
+render:
+  image: {}
+usage_notes:
+  - "Not a complete piece: straps run off the left and right edges, so crop or mask it at a strap crossing."
+display_width: [ 600, 1181 ]
+
+# administrative: manage, access, preserve
+status: approved
+review: done
+quality: "Cut from a larger pattern, with straps running off the left and right edges. Ink is stored as continuous alpha coverage with almost no fully opaque pixel, so the strokes pale over dark grounds."
+created: 2026-10-28
+master: master.png
+provenance:
+  method: native-ink-extraction
+  institution: Metropolitan Museum of Art
+  object_title: Page from Ein new kunstlich Modelbuch...(Page 2r)
+  object_identifier: 22.84.1(2r)
+  date: "1544"
+  artist: Peter Quentel
+  record_url: https://www.metmuseum.org/art/collection/search/681251
+  image_url: https://images.metmuseum.org/CRDImages/dp/original/DP357021.jpg
+  image_rights: CC0-1.0
+  rights_url: https://www.metmuseum.org/policies/image-resources
+  source_sha256: bae677b486ebff0386efabee060e4f417621c1443b94c9ee08e94d357d8e8918
+license: null

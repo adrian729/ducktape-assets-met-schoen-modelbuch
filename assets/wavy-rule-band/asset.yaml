@@ -1,0 +1,63 @@
+# descriptive: find it and understand it
+id: wavy-rule-band
+title: "Wavy rule band, three waves"
+description: "A short run of the wavy rule that separates the pattern bands on the page: a single undulating line of three waves between a heavy rule above and a double rule below. Dark brown-black ink on a transparent ground, only 29 px tall."
+type: border
+categories:
+  - geometric
+subjects:
+  - wave
+  - rule
+colors:
+  - black
+  - brown
+facing: none
+composition: repeat-tile
+
+# structural: how it is organised and related
+group: 22-84-1-2r
+render:
+  image: {}
+  tile:
+    axis: x
+  frame:
+    corner: corner-top-left
+    slice: 13.18
+components:
+  corner-top-left:
+    master: corner-top-left.png
+    description: "Top-left mitred corner of the cycle, the wavy line turning the corner; the one used for the frame atlas."
+  corner-top-right:
+    master: corner-top-right.png
+    description: "Top-right mitred corner, a further phase of the cycle, the wavy line turning the corner; not a mirror of the top-left one."
+  corner-bottom-left:
+    master: corner-bottom-left.png
+    description: "Bottom-left mitred corner, a further phase of the cycle, the wavy line turning the corner."
+  corner-bottom-right:
+    master: corner-bottom-right.png
+    description: "Bottom-right mitred corner, a further phase of the cycle, the wavy line turning the corner."
+usage_notes:
+  - "Repeats along x; the build's rotated ladder gives the vertical use."
+  - "The frame atlas composes this cycle with corner-top-left, mirrored for the other three corners; use it with border-image and round fitting."
+  - "The four corner components are mitres cut at the four phases of the cycle; only corner-top-left goes into the atlas, the other three are for hand-composed frames."
+display_width: [ 81, 162 ]
+
+# administrative: manage, access, preserve
+status: approved
+review: done
+quality: "Only 29 px tall, so it softens at any enlargement. Ink is stored as continuous alpha coverage with almost no fully opaque pixel, so the strokes pale over dark grounds."
+created: 2026-10-28
+master: master.png
+provenance:
+  method: native-source-repeat
+  institution: Metropolitan Museum of Art
+  object_title: Page from Ein new kunstlich Modelbuch...(Page 2r)
+  object_identifier: 22.84.1(2r)
+  date: "1544"
+  artist: Peter Quentel
+  record_url: https://www.metmuseum.org/art/collection/search/681251
+  image_url: https://images.metmuseum.org/CRDImages/dp/original/DP357021.jpg
+  image_rights: CC0-1.0
+  rights_url: https://www.metmuseum.org/policies/image-resources
+  source_sha256: bae677b486ebff0386efabee060e4f417621c1443b94c9ee08e94d357d8e8918
+license: null

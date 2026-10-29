@@ -1,0 +1,51 @@
+# descriptive: find it and understand it
+id: palmette-scroll-printer-frame
+title: "Printer's frame of palmette fleurons"
+description: "The complete rectangular frame printed around the page, with its interior cleared, built from printer's fleurons of paired leafy scrolls around a small palmette repeated along all four sides; the top band is narrower than the other three and the corner joins are as printed. Heavily inked impression in dark brown-black with some broken strokes; inside and outside the frame transparent."
+type: frame
+categories:
+  - scrollwork
+  - floral
+subjects:
+  - frame
+  - fleuron
+  - palmette
+  - scroll
+  - leaf
+colors:
+  - black
+  - brown
+facing: none
+composition: single-ornament
+
+# structural: how it is organised and related
+group: 20-16-2r
+render:
+  image: {}
+related:
+  - { asset: met-schoen-modelbuch/upper-row-palmettes-and-paired-scroll-cycle, role: variant }
+  - { asset: met-schoen-modelbuch/upright-palmettes-and-four-lobed-scroll-cycle, role: variant }
+usage_notes:
+  - "Fixed frame: scale it as a whole and place content in the transparent interior; the top band is narrower than the others, so it is not a border-image."
+  - "For a band of any length use upper-row-palmettes-and-paired-scroll-cycle (the narrow top band) or upright-palmettes-and-four-lobed-scroll-cycle (the wide band of the other sides)."
+display_width: [ 800, 1600 ]
+
+# administrative: manage, access, preserve
+status: approved
+review: done
+quality: "Heavily inked impression with filled-in and broken strokes. Ink is stored as continuous alpha coverage with almost no fully opaque pixel, so the strokes pale over dark grounds."
+created: 2026-10-28
+master: master.png
+provenance:
+  method: native-ink-extraction
+  institution: Metropolitan Museum of Art
+  object_title: Schön Neues Modelbuch (Page 2 recto)
+  object_identifier: 20.16(2r)
+  date: "1597"
+  artist: Johann Sibmacher
+  record_url: https://www.metmuseum.org/art/collection/search/680571
+  image_url: https://images.metmuseum.org/CRDImages/dp/original/DP363467.jpg
+  image_rights: CC0-1.0
+  rights_url: https://www.metmuseum.org/policies/image-resources
+  source_sha256: da9d453a2b644ef54fa8df0adfddab42bf457abf899d8d550c4dcc836091f758
+license: null

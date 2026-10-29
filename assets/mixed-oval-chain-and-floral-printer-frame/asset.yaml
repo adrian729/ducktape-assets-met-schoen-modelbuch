@@ -1,0 +1,52 @@
+# descriptive: find it and understand it
+id: mixed-oval-chain-and-floral-printer-frame
+title: "Printer's frame of oval chain and fleurons"
+description: "The complete rectangular frame printed around the page, with its interior cleared: an oval chain of doubled cord along the top with a small asterisk in it, a column of leafy scroll fleurons down each side and a wider band of paired-scroll and four-leaf fleurons along the bottom. The four sides do not match and the bands run slightly uneven. Worn, heavily inked impression in dark brown-black; inside and outside the frame transparent."
+type: frame
+categories:
+  - scrollwork
+  - floral
+  - geometric
+subjects:
+  - frame
+  - chain
+  - fleuron
+  - scroll
+  - leaf
+colors:
+  - black
+  - brown
+facing: none
+composition: single-ornament
+
+# structural: how it is organised and related
+group: 20-16-4r
+render:
+  image: {}
+related:
+  - { asset: met-schoen-modelbuch/bow-and-oval-chain-cycle, role: variant }
+  - { asset: met-schoen-modelbuch/horizontal-palmettes-and-four-lobed-scroll-cycle, role: variant }
+usage_notes:
+  - "Fixed frame: scale it as a whole and place content in the transparent interior; the four sides differ, so it is not a border-image."
+  - "For a band of any length use bow-and-oval-chain-cycle (the top band) or horizontal-palmettes-and-four-lobed-scroll-cycle (the bottom band)."
+display_width: [ 800, 1600 ]
+
+# administrative: manage, access, preserve
+status: approved
+review: done
+quality: "Worn impression with broken strokes; the bands are not perfectly straight. Ink is stored as continuous alpha coverage with almost no fully opaque pixel, so the strokes pale over dark grounds."
+created: 2026-10-28
+master: master.png
+provenance:
+  method: native-ink-extraction
+  institution: Metropolitan Museum of Art
+  object_title: Schön Neues Modelbuch (Page 4 recto)
+  object_identifier: 20.16(4r)
+  date: "1597"
+  artist: Johann Sibmacher
+  record_url: https://www.metmuseum.org/art/collection/search/680623
+  image_url: https://images.metmuseum.org/CRDImages/dp/original/DP363471.jpg
+  image_rights: CC0-1.0
+  rights_url: https://www.metmuseum.org/policies/image-resources
+  source_sha256: 29e6b4772aa319b0371aefa51d8a75b874d4390366148afc47345b74bf28a3d6
+license: null

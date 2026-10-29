@@ -1,0 +1,70 @@
+# descriptive: find it and understand it
+id: upright-palmettes-and-four-lobed-scroll-cycle
+title: "Wide fleuron border, one cycle"
+description: "One cycle of the wide band along the sides and bottom of the page frame, built from printer's fleurons: a unit of four leafy C-scrolls around a small heart-shaped palmette, repeated with a flourish of leaves between. Heavily inked impression in dark brown-black with some filled-in strokes, on a transparent ground."
+type: border
+categories:
+  - scrollwork
+  - floral
+subjects:
+  - fleuron
+  - scroll
+  - palmette
+  - leaf
+colors:
+  - black
+  - brown
+facing: none
+composition: repeat-tile
+
+# structural: how it is organised and related
+group: 20-16-2r
+render:
+  image: {}
+  tile:
+    axis: x
+  frame:
+    corner: corner-top-left
+    slice: 22.47
+components:
+  corner-top-left:
+    master: corner-top-left.png
+    description: "Top-left mitred corner of the cycle, the fleurons turning the corner; the one used for the frame atlas."
+  corner-top-right:
+    master: corner-top-right.png
+    description: "Top-right mitred corner, a further phase of the cycle, the fleurons turning the corner; not a mirror of the top-left one."
+  corner-bottom-left:
+    master: corner-bottom-left.png
+    description: "Bottom-left mitred corner, a further phase of the cycle, the fleurons turning the corner."
+  corner-bottom-right:
+    master: corner-bottom-right.png
+    description: "Bottom-right mitred corner, a further phase of the cycle, the fleurons turning the corner."
+related:
+  - { asset: met-schoen-modelbuch/palmette-scroll-printer-frame, role: variant }
+  - { asset: met-schoen-modelbuch/upper-row-palmettes-and-paired-scroll-cycle, role: companion }
+usage_notes:
+  - "Repeats along x; the build's rotated ladder gives the vertical use."
+  - "The frame atlas composes this cycle with corner-top-left, mirrored for the other three corners; use it with border-image and round fitting."
+  - "The four corner components are mitres cut at the four phases of the cycle; only corner-top-left goes into the atlas, the other three are for hand-composed frames."
+  - "Cut from the wide band of palmette-scroll-printer-frame; the narrow top band is upper-row-palmettes-and-paired-scroll-cycle."
+display_width: [ 225, 451 ]
+
+# administrative: manage, access, preserve
+status: approved
+review: done
+quality: "Heavily inked impression with filled-in strokes. Ink is stored as continuous alpha coverage with almost no fully opaque pixel, so the strokes pale over dark grounds."
+created: 2026-10-28
+master: master.png
+provenance:
+  method: native-source-repeat
+  institution: Metropolitan Museum of Art
+  object_title: Schön Neues Modelbuch (Page 2 recto)
+  object_identifier: 20.16(2r)
+  date: "1597"
+  artist: Johann Sibmacher
+  record_url: https://www.metmuseum.org/art/collection/search/680571
+  image_url: https://images.metmuseum.org/CRDImages/dp/original/DP363467.jpg
+  image_rights: CC0-1.0
+  rights_url: https://www.metmuseum.org/policies/image-resources
+  source_sha256: da9d453a2b644ef54fa8df0adfddab42bf457abf899d8d550c4dcc836091f758
+license: null
